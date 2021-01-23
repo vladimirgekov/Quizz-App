@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-01-20T20:51:57" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="quiz app test" timestamp="2021-01-20T20:51:57" tests="7" file="D:\test3\1b9de7ad-6223-416d-b155-71de3a2b485b\test\test.js" failures="1" time="0">
+    <testcase name="quiz app test &quot;before all&quot; hook" time="0" classname="&quot;before all&quot; hook">
+      <failure message="unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.19042 x86_64)" type="WebDriverError"><![CDATA[WebDriverError: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.19042 x86_64)
+    at Object.checkLegacyResponse (node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:509:13)
+    at node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.createSession()
+    at Function.createSession (node_modules\selenium-webdriver\lib\webdriver.js:769:24)
+    at Function.createSession (node_modules\selenium-webdriver\chrome.js:761:15)
+    at createDriver (node_modules\selenium-webdriver\index.js:170:33)
+    at Builder.build (node_modules\selenium-webdriver\index.js:642:16)
+    at Context.<anonymous> (test\test.js:30:14)
+    at processImmediate (internal/timers.js:461:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
